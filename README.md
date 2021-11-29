@@ -1,5 +1,22 @@
 ### 📌 Configuration :  
 Fullfill functions in the <a href="https://github.com/Neptune-IT/Simple-MySQL-API/blob/main/ids.c">ids.c</a> file with your MySQL identifiers.  
+```c
+char* get_host(){
+    return "";
+}
+
+char* get_username(){
+    return "";
+}
+
+char* get_password(){
+    return "";
+}
+
+char* get_database(){
+    return "";
+}
+```  
   
 ### 📌 Usage :  
 You can see an example of the way you should use the API in the <a href="https://github.com/Neptune-IT/Simple-MySQL-API/blob/main/main.c">main.c</a> file.  
