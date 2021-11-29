@@ -3,6 +3,7 @@ Fullfill functions in the <a href="https://github.com/Neptune-IT/Simple-MySQL-AP
   
 ### 📌 Usage :  
 You can see an example of the way you should use the API in the <a href="https://github.com/Neptune-IT/Simple-MySQL-API/blob/main/main.c">main.c</a> file.  
+You can also directly start the programe or check how to debug it with the <a href="https://github.com/Neptune-IT/Simple-MySQL-API/blob/main/start.sh">start.sh</a> file 
   
 ```c
 #include "sql_api.c"
