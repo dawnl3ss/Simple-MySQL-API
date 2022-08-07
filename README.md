@@ -1,5 +1,5 @@
 ### 📌 Configuration :  
-Fullfill functions in the <a href="https://github.com/Neptune-IT/Simple-MySQL-API/blob/main/ids.c">ids.c</a> file with your MySQL identifiers.  
+Fullfill functions in the <a href="https://github.com/4m4Sec/Simple-MySQL-API/blob/main/settings/ids.c">ids.c</a> file with your MySQL identifiers.  
 ```c
 char* get_host(){
     return "";
@@ -26,11 +26,11 @@ sudo apt-get update
 sudo apt install default-libmysqlclient-dev
 ```
   
-You can see an example of the way you should use the API in the <a href="https://github.com/Neptune-IT/Simple-MySQL-API/blob/main/main.c">main.c</a> file.  
-You can also directly start the program or check how to debug it with the <a href="https://github.com/Neptune-IT/Simple-MySQL-API/blob/main/start.sh">start.sh</a> file 
+You can see an example of the way you should use the API in the <a href="https://github.com/4m4Sec/Simple-MySQL-API/blob/main/main.c">main.c</a> file.  
+You can also directly start the program or check how to debug it with the <a href="https://github.com/4m4Sec/Simple-MySQL-API/blob/main/start.sh">start.sh</a> file.  
   
 ```c
-#include "sql_api.c"
+#include "src/sql/sql_api.c"
 
 int main(int argc, char **argv){
 

@@ -1,6 +1,6 @@
 #include <mysql.h>
-#include "headers/sql_api.h"
-#include "ids.c"
+#include "sql_api.h"
+#include "../../settings/ids.c"
 
 MYSQL* connect_sql(){
     MYSQL *con = mysql_init(NULL);
